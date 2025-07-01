@@ -53,3 +53,39 @@ cv2.imshow("Bird.png", img)
 # cv2.imshow("Bordered Image", borderedImage)
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
+
+# img5 = cv2.cvtColor(image, cv2.COLOR_BGR2HSV )
+# cv2.imshow("original", image)
+# cv2.imshow("weird colour", img)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
+
+# edges = cv2.Canny(img, 10, 20)
+
+# cv2.imshow('Original Image', img)
+# cv2.imshow('Edged Image', edges)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
+
+# rows, cols,_ = img.shape
+
+# M = cv2.getRotationMatrix2D((cols / 2, rows / 2), -65, 1)
+# res = cv2.warpAffine(img, M, (cols, rows))
+
+# result = cv2.rotate(img,cv2.ROTATE_90_COUNTERCLOCKWISE)
+# cv2.imshow('result', result)
+# cv2.imshow('Original image', img)
+# cv2.imshow('Rotated Image', res)
+
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
+
+# (row, col) = img.shape[0:2]
+
+# for i in range(row):
+#     for j in range(col):
+#         img[i, j] = sum(img[i, j]) * 1
+
+# cv2.imshow('Grayscale Image', img)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
